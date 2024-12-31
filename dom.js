@@ -9,18 +9,20 @@
 
  
 
-document.querySelector('#root').appendChild(heading);
+document.querySelector('#root').appendChild(heading); //-selecting the div by id and putting the element (h1) inside it , by using .appendChild api
 
 
 
-document.body.style.background="pink"
+document.body.style.background="pink"   //- this is for changing the background colour of html to pink
 
 
 
 /**
- * //-  my first comment
- * //*  my second comment
- * //Todo  my third comment
- * //! my forth comment
- * //? my fifth comment
+ * //* THESE ARE THE COMMENTS THAT CAN BE WRITTEN IN VARIOUS COLOURS  
+ * 
+ * //-  my first comment   --> PINK
+ * //*  my second comment  --> YELLOW
+ * //Todo  my third comment --> ORANGE
+ * //! my forth comment --> RED
+ * //? my fifth comment  -->GREEN
  */

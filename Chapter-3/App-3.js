@@ -63,7 +63,7 @@ const HeadComponent = () => {
 let v = 9;
 const HeadComponent2 = () => {
   return (
-    <div>
+    <div style={{backgroundColor:"orchid"}} >
       {console.log("here i can write any js code inside the {} of jsx")} //*THIS IS HOW I WRITE JS INSIDE JSX. INSIDE {}
       {v}
       {1+2+3}
@@ -71,8 +71,8 @@ const HeadComponent2 = () => {
       {heading} //- A. calling the REACT ELEMENT
       {Title()} //- B. this is also correct   
       <Title /> //- C. this is also you can write and add the functional component inside another component
-      <h1>i am 1st child</h1>
-      <h1>i am 2 child</h1>
+      <h1 style={{color:"green", backgroundColor:"grey"}}>i am 1st child</h1>
+      <h1 style={{backgroundColor:"red",color:"whitesmoke"}}>i am 2 child</h1>
     </div>
   );
 };
@@ -81,7 +81,7 @@ const HeadComponent2 = () => {
 
 //!         or
 // const HeadComponent2 = () =>
-  // without return also you can write the function component
+  //- without return also you can write the function component
 //(   
 //     <div>
 //       <h1>i am 1st child</h1>

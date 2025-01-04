@@ -2,19 +2,25 @@
   "name": "react-js",
   "version": "1.0.0",
   "description": "Hello, this is my first",
- 
   "scripts": {
+    "start": "parcel Chapter-3/index3.html",
+    "build": "parcel build Chapter-3/index3.html",
     "test": "jest"
   },
   "keywords": [],
   "author": "Akriti",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.13.3",
     "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
-  }
+  },
+  "browsersList" : [
+    "last 10 Chrome versions"
+  ]
 }

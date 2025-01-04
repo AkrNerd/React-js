@@ -25,4 +25,11 @@ Thumbs.db
 *.tmp
 *.swp
 
+# babel ignore log 
+.babelrc
+
+
+
+
+
 

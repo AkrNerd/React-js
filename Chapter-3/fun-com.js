@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const element = <h1>This is React Element</h1>; //- This is React element or {TitleComponent}
+const element = <h1>This is React Element</h1>; //* This is React element or {TitleComponent}
 
 const TitleElement = () => {
   return <h2 style={{ color: "red" }}>This Title Element</h2>;
-}; //- This is Title Component
+}; //* This is Title Component
 
 const Header = () => {
   return (

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Hello, this is my first",
   "scripts": {
-    "start": "parcel Chapter-3/index3.html",
-    "build": "parcel build Chapter-3/index3.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "keywords": [],

@@ -67,6 +67,7 @@ const Body = () => {
 
 
       }}>Search-</button>
+
       <div className="restaurant-list-body">
         {/***********USING MAP FUNCTION********** */}
         {restaurants.map((restaurant) => {

@@ -1,6 +1,7 @@
 # React-js
 
-RENDER :  Simply measn show something on screen. So its a function or process that takes your react element and paste on the browser/screen.
+RENDER :  Simply measn show something on screen. So its a function or process that takes your react element and paste on the browser/screen.  like its converting ur react code into js for browser and this translation is done by babel.
+
 
 RE-RENDER :  when you make changes on the screen that means re-rendering (update) in terms of react
 
